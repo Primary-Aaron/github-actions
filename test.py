@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.subtract(1, 1), 0)
 
     def test_mult(self):
-        self.assertEqual(example.mult(1, 2), 3)
+        self.assertEqual(example.mult(1, 2), 2)
 
     def test_divide(self):
         self.assertEqual(example.divide(1, 1), 1)
