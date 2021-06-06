@@ -10,6 +10,12 @@ class TestCase(unittest.TestCase):
     def test_subtract_1(self):
         self.assertEqual(example.subtract(1, 1), 0)
 
+    def test_mult(self):
+        self.assertEqual(example.mult(1, 2), 3)
+
+    def test_divide(self):
+        self.assertEqual(example.divide(1, 1), 1)
+
 
 if __name__ == '__main__':
     unittest.main()
